@@ -21,7 +21,7 @@ public class ChromeDriverTest {
         driver.get(testUrl);
 
         // Do the actual test steps
-        ActualTestStep at = new ActualTestStep();
+        TestSteps at = new TestSteps();
         at.actualTest(driver, testUrl);
 
         driver.quit();
